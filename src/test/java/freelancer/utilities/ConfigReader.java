@@ -1,4 +1,4 @@
-package Freelancer.utilities;
+package freelancer.utilities;
 
 import java.io.FileInputStream;
 import java.io.IOException;

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes" thread-count="2">
+    <test verbose="2" preserve-order="true" name="/Users/zeynepabaci/IdeaProjects/Selenium/Test_NG">
+        <classes>
+            <class name="freelancer.tests.day14_pom.C01_PageKullanımı">
+                <methods>
+                    <include name="test01"/>
+                </methods>
+            </class>
+            <class name="freelancer.tests.day14_pom.C02_PageKullanımı">
+                <methods>
+                    <include name="test01"/>
+                </methods>
+            </class>
+            <class name="freelancer.tests.day14_pom.C03_PropertiesTest">
+                <methods>
+                    <include name="test01"/>
+                </methods>
+            </class>
+            <class name="freelancer.tests.day14_pom.C04_ClassWork">
+                <methods>
+                    <include name="test01"/>
+                </methods>
+            </class>
+            <class name="freelancer.tests.day14_pom.C05_ClassWork">
+                <methods>
+                    <include name="test01"/>
+                </methods>
+            </class>
+            <class name="freelancer.tests.day14_pom.C06_DataProvider">
+                <methods>
+                    <include name="test01"/>
+                    <include name="test02"/>
+                </methods>
+            </class>
+            <class name="freelancer.tests.day15_dataprovider.C01_DataProviderTest">
+                <methods>
+                    <include name="test01"/>
+                    <include name="test02"/>
+                </methods>
+            </class>
+            <class name="freelancer.tests.day15_dataprovider.C02_DataProviderTestUsage">
+                <methods>
+                    <include name="test01"/>
+                </methods>
+            </class>
+            <class name="freelancer.tests.day16_paralleltest_listeners.C01_ParallelTest">
+                <methods>
+                    <include name="test01"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

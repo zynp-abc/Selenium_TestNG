@@ -1,9 +1,9 @@
-package Freelancer.tests.day14_pom;
+package freelancer.tests.day14_pom;
 
-import Freelancer.pages.OpenSourcePage;
-import Freelancer.utilities.ConfigReader;
-import Freelancer.utilities.Driver;
-import Freelancer.utilities.ReusableMethods;
+import freelancer.pages.OpenSourcePage;
+import freelancer.utilities.ConfigReader;
+import freelancer.utilities.Driver;
+import freelancer.utilities.ReusableMethods;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;

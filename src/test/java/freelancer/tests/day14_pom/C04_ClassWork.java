@@ -1,15 +1,15 @@
-package Freelancer.tests.day14_pom;
+package freelancer.tests.day14_pom;
 
-import Freelancer.pages.TestCenterPage;
-import Freelancer.utilities.ConfigReader;
-import Freelancer.utilities.Driver;
+import freelancer.pages.TestCenterPage;
+import freelancer.utilities.ConfigReader;
+import freelancer.utilities.Driver;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class C04_ClassWork {
 
 
-    @Test
+    @Test(groups = "smoke")
     public void test01() {
 
         Driver.getDriver().get(ConfigReader.getProperty("testCenterUrl"));

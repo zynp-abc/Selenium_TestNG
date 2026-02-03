@@ -1,13 +1,13 @@
-package Freelancer.tests.day14_pom;
+package freelancer.tests.day14_pom;
 
-import Freelancer.pages.OpenSourcePage;
-import Freelancer.utilities.Driver;
+import freelancer.pages.OpenSourcePage;
+import freelancer.utilities.Driver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class C02_PageKullanımı {
 
-    @Test
+    @Test(groups = "smoke")
     public void test01() {
 
         Driver.getDriver().get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");

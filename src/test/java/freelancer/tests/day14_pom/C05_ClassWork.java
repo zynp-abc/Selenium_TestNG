@@ -1,9 +1,7 @@
-package Freelancer.tests.day14_pom;
+package freelancer.tests.day14_pom;
 
-import Freelancer.utilities.Driver;
+import freelancer.utilities.Driver;
 import org.testng.annotations.Test;
-
-import java.awt.dnd.DragGestureEvent;
 
 public class C05_ClassWork {
 

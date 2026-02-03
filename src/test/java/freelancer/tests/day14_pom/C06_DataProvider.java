@@ -1,4 +1,4 @@
-package Freelancer.tests.day14_pom;
+package freelancer.tests.day14_pom;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

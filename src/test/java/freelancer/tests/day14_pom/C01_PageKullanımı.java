@@ -1,7 +1,7 @@
-package Freelancer.tests.day14_pom;
+package freelancer.tests.day14_pom;
 
-import Freelancer.pages.AmazonPage;
-import Freelancer.utilities.Driver;
+import freelancer.pages.AmazonPage;
+import freelancer.utilities.Driver;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 

@@ -1,17 +1,13 @@
-package Freelancer.utilities;
+package freelancer.utilities;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-
-
-import static Freelancer.utilities.Driver.driver;
 
 public class ReusableMethods {
 
