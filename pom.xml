@@ -45,6 +45,14 @@
             <version>5.2.3</version>
         </dependency>
 
+        <!-- Source: https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>5.0.9</version>
+            <scope>compile</scope>
+        </dependency>
+
 
 
 
